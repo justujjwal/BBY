@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>For My Love ❤️</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="welcome-screen" id="welcomeScreen">
+      <h1>Welcome My Love 💖</h1>
+      <button onclick="showChoice()">Enter</button>
+    </div>
+
+    <div class="choice-screen" id="choiceScreen" style="display:none;">
+      <h2>Do you want to feel the magic with music?</h2>
+      <div class="buttons">
+        <button onclick="startStory(true)">With Music 🎶</button>
+        <button onclick="startStory(false)">Without Music 🌸</button>
+      </div>
+    </div>
+
+    <div class="main-content" id="mainContent" style="display:none;">
+      <audio id="bgMusic" src="musiccccc.mpeg" preload="auto"></audio>
+      <div class="photo">
+        <img src="imagessss.jpeg" alt="Her Photo" />
+      </div>
+      <div class="lines" id="romanticLines">
+        <!-- Romantic lines will appear here -->
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
